@@ -1,0 +1,52 @@
+﻿<Window x:Class="DrivingLicenseApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DrivingLicenseApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <TextBlock Name="Introduction" Text="Kitchener Driving License Exam" FontSize="30" HorizontalAlignment="Center" />
+        <TabControl TabStripPlacement="Top" FontSize="25" HorizontalAlignment="Center">
+            <TabItem Header="Submit test">
+                <StackPanel>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Image Source="DrivingTest.jpg" Grid.Row="0" Height="300" Stretch="UniformToFill" />
+                        <TextBlock Grid.Row="0" Foreground="White" Text="Submit exam below" FontWeight="Bold" VerticalAlignment="Bottom" FontSize="35" />
+                    </Grid>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Your Result">
+                <StackPanel Grid.Row="0">
+                    <Button Name="CheckAnswers" Content="Check" Margin="20" Click="CheckAnswers_Click" />
+                    <!-- <Button Name="ShowResult" Content="Show" Margin="20" Click="ShowResult_Click" /> -->
+                    <TextBox Name="Length" Text="{Binding NumberOfCorrect}" Margin="20" />
+                    <Label Name="Result" Content="{Binding Message}" />
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Statistics">
+                <StackPanel>
+                    <ListBox ItemsSource="{Binding WrongAnswers}" FontSize="35" Grid.Row="1">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <!--One column inside the ListBox to show the wrong answers-->
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <!--Lbl1 inside the ListBox has a bond with the wrong question-->
+                                    <Label Name="Lbl1" Grid.Column="0" FontSize="18" Content="{Binding Question}" />
+                                </Grid>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+    </StackPanel>
+</Window>

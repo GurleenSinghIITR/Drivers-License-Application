@@ -1,0 +1,15 @@
+c:\users\prince\source\repos\DrivingLicenseApp\DrivingLicenseApp\obj\Debug\DrivingLicenseApp.csprojAssemblyReference.cache
+c:\users\prince\source\repos\DrivingLicenseApp\DrivingLicenseApp\obj\Debug\MainWindow.g.cs
+c:\users\prince\source\repos\DrivingLicenseApp\DrivingLicenseApp\obj\Debug\App.g.cs
+c:\users\prince\source\repos\DrivingLicenseApp\DrivingLicenseApp\obj\Debug\DrivingLicenseApp_MarkupCompile.cache
+c:\users\prince\source\repos\DrivingLicenseApp\DrivingLicenseApp\obj\Debug\DrivingLicenseApp_MarkupCompile.lref
+c:\users\prince\source\repos\DrivingLicenseApp\DrivingLicenseApp\bin\Debug\DrivingLicenseApp.exe.config
+c:\users\prince\source\repos\DrivingLicenseApp\DrivingLicenseApp\bin\Debug\DrivingLicenseApp.exe
+c:\users\prince\source\repos\DrivingLicenseApp\DrivingLicenseApp\bin\Debug\DrivingLicenseApp.pdb
+c:\users\prince\source\repos\DrivingLicenseApp\DrivingLicenseApp\obj\Debug\MainWindow.baml
+c:\users\prince\source\repos\DrivingLicenseApp\DrivingLicenseApp\obj\Debug\DrivingLicenseApp.g.resources
+c:\users\prince\source\repos\DrivingLicenseApp\DrivingLicenseApp\obj\Debug\DrivingLicenseApp.Properties.Resources.resources
+c:\users\prince\source\repos\DrivingLicenseApp\DrivingLicenseApp\obj\Debug\DrivingLicenseApp.csproj.GenerateResource.cache
+c:\users\prince\source\repos\DrivingLicenseApp\DrivingLicenseApp\obj\Debug\DrivingLicenseApp.csproj.CoreCompileInputs.cache
+c:\users\prince\source\repos\DrivingLicenseApp\DrivingLicenseApp\obj\Debug\DrivingLicenseApp.exe
+c:\users\prince\source\repos\DrivingLicenseApp\DrivingLicenseApp\obj\Debug\DrivingLicenseApp.pdb
